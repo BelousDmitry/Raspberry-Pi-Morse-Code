@@ -1,4 +1,4 @@
-# Transfering Morse Code between two Raspberry Pi computers.
+# Transfering Morse Code between two Raspberry Pi computers
 Morse code is sent from one computer to another by the laser. The second computer has a sensor that detects if the laser is on/off. 
 To be more exact, it turns on the laser for a time according to dot, dash, etc. The receiver reads the laser using a light sensor. 
 It takes time when it detects the light(laser) and does it again when there is no light. Therefore, the program subtracts the second value of time and the first one and gets the total time the laser was on. 
